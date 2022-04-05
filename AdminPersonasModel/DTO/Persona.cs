@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace AdminPersona
 {
+
     public class Persona
     {
         private string nombre;
@@ -13,6 +14,7 @@ namespace AdminPersona
         private uint telefono;
         private double peso;
         private double estatura;
+        private IMC imc;
 
 
         public string Nombre { get => nombre; set => nombre = value; }
