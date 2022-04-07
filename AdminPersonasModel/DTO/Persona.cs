@@ -6,30 +6,6 @@ using System.Threading.Tasks;
 
 namespace AdminPersona
 {
-    public struct IMC
-    {
-        public double Valor { get; set; }
-
-      
-        public String Texto
-        {
-            get
-            {
-                if (Valor < 20)
-                {
-                    return "Anorexcio";
-                } else if (Valor >= 20 && Valor <= 30)
-                {
-                    return "Gordo";
-                }
-                else
-                {
-                    return "Amigo de las historietas";
-                }
-            }
-        }
-
-    }
     public class Persona
     {
         private string nombre;
